@@ -20021,9 +20021,9 @@ class Main extends PluginBase {
 				} else {
 					$sender->sendMessage("Unknown number");
 				}
-				return true;
 			}
-			return false;
+			return true;
 		}
+		return false;
 	}
 }
