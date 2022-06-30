@@ -1,0 +1,18 @@
+---
+name: isEvenOrOdd
+version: 0.0.1
+main: NhanAZ\isEvenOrOdd\Main
+api: 4.0.0
+src-namespace-prefix: NhanAZ\isEvenOrOdd
+
+commands:
+  isevenorodd:
+    description: Check if a number is even or odd
+    permission: isevenorodd.command
+    aliases: ["evenorodd", "eoo"]
+    usage: /isevenorodd <number>
+permissions:
+  isevenorodd.command:
+    description: "Allows the use of /isevenorodd"
+    default: true
+...
