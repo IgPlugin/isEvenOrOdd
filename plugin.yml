@@ -1,6 +1,6 @@
 ---
 name: isEvenOrOdd
-version: 0.0.2+dev
+version: 0.0.2
 main: NhanAZ\isEvenOrOdd\Main
 api: 5.0.0
 src-namespace-prefix: NhanAZ\isEvenOrOdd
